@@ -427,7 +427,7 @@ section.section {
 }
 
 .navbar-logo {
-	display: flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
 }
@@ -498,6 +498,7 @@ section.section {
 	.intro-content  h2 {
 		font-size: 34px;
 	}
+	
 }
 
 .btn-get-started {
@@ -1102,17 +1103,19 @@ Media queries
 @media (max-width: 767px) {
 
 	.navbar.navbar-fixed-top {
-		background-color:rgba(0,0,0,1);
+		background-color:#3a788da8;
 	}
 	.navbar .navbar-collapse ul.nav {
-		background-color: #444;
+		background-color: #3a788da8;
+		border-radius: 3px;
+		border: 1px solid #316d81;
 		width: 100%;
 		float: none;
 		margin:0;
 		padding:0;
 	}
 	.navbar .navbar-collapse ul.nav li {
-		border-bottom: 1px solid #666;
+		border-bottom: 1px solid #316d81;
 	}
 	section.featured {
 		padding-top: 80px;
